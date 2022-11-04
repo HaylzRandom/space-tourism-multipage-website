@@ -108,17 +108,12 @@ body {
     overflow-x: hidden;
 }
 
-/* A elements that don't have a class get default styles */
-/* a:not([class]) {
-    text-decoration-skip-ink: auto;
-} */
-
 /* Make images easier to work with */
-img,
+/* img,
 picture {
     max-width: 100%;
     display: block;
-}
+} */
 
 /* Inherit fonts for inputs and buttons */
 input,
@@ -417,7 +412,7 @@ select {
         top: 2rem;
         border: 0;
         background-color: transparent;
-        background-image: url('../assets/shared/icon-hamburger.svg');
+        background: url('../assets/shared/icon-hamburger.svg');
         background-repeat: no-repeat;
         background-position: center;
         width: 1.5rem;
@@ -425,7 +420,7 @@ select {
     }
 
     .mobile-nav-toggle[aria-expanded='true'] {
-        background-image: url('../assets/shared/icon-close.svg');
+        background: url('../assets/shared/icon-close.svg');
     }
 
     .mobile-nav-toggle:focus-visible {
@@ -618,6 +613,7 @@ body {
 .grid-container--destination > picture {
     grid-area: image;
     max-width: 60%;
+    align-self: start;
 }
 
 .grid-container--destination > .tab-list {
@@ -687,6 +683,7 @@ body {
             'dots'
             'image';
     }
+
 }
 
 /* Large Screens */
@@ -719,8 +716,7 @@ body {
             '. image content .';
     }
 
-    .grid-container--destination > picture,
-    .grid-container--crew > picture {
+    .grid-container--destination > picture {
         max-width: 90%;
     }
 
@@ -730,21 +726,19 @@ body {
     }
 
     .grid-container--crew {
+        justify-items: start;
+        align-content: start;
+        grid-template-columns: minmax(2rem, 1fr) minmax(0, 40rem) minmax(0, 20rem) minmax(2rem, 1fr);
         grid-template-areas:
             '. title title .'
             '. content image .'
             '. dots image . ';
     }
 
-    .grid-container--crew > .dot-indicators {
-        justify-self: start;
-    }
-
     .grid-container--crew > picture {
+        grid-column: span 2;
         align-self: end;
+        max-width: 100%;
     }
 
-    .grid-container--crew > .crew-info {
-        justify-self: start;
-    }
 }
