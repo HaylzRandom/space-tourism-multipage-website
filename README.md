@@ -25,6 +25,11 @@ website with responsive views!"
 
 - [Space Tourism Multipage Website](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3)
 
+## Roadmap
+
+- [ ] Remake as a React App
+- [ ] Utilise JSON file for data
+
 ## Related
 
 Here are some related projects
@@ -37,14 +42,55 @@ Here are some related projects
 
 ## Demo
 
-<img src="./screenshots/space.gif" alt="Space Gif" width="200"  />
+<img src="./assets/screenshots/demo.gif.gif" alt="Demo Gif" width="500"  />
 
 ## Screenshots
 
-Desktop
+<p align="center"> 
+    <table>
+        <thead>Desktop</thead>
+        <tr>
+            <td>
+                <img src="./assets/screenshots/desktop-homepage-screenshot.png" alt="Desktop Homepage Screenshot" width="400" height="100%" />
+            </td>
+            <td>
+                <img src="./assets/screenshots/desktop-destinations-screenshot.png" alt="Destinations Desktop Screenshot" width="400" />
+            </td>
+        </tr>
+    </table>
+</p>
 
-<img src="./screenshots/desktop-screenshot.png" alt="Desktop Screenshot Screenshot" width="400" />
+<p align="center"> 
+    <table>
+        <thead>Tablet</thead>
+        <tr>
+            <td>
+                <img src="./assets/screenshots/tablet-crew-screenshot.png" alt="Tablet Crew Screenshot" height="300" />
+            </td>
+            <td>
+                <img src="./assets/screenshots/tablet-technology-screenshot.png" alt="Technology Tablet Screenshot" height="300" />
+            </td>
+        </tr>
+    </table>
+</p>
 
-Mobile
+<p align="center"> 
+    <table>
+        <thead>Mobile</thead>
+        <tr>
+            <td>
+                <img src="./assets/screenshots/mobile-homepage-navigation-screenshot.png" alt="Mobile Navigation Screenshot" height="300" />
+            </td>
+            <td>
+                <img src="./assets/screenshots/mobile-destinations-screenshot.png" alt="Destinations Mobile Screenshot" height="300" />
+            </td>
+            <td>
+                <img src="./assets/screenshots/mobile-crew-screenshot.png" alt="Mobile Crew Screenshot" height="300" />
+            </td>
+            <td>
+                <img src="./assets/screenshots/mobile-technology-screenshot.png" alt="Technology Mobile Screenshot" height="300" />
+            </td>
+        </tr>
+    </table>
+</p>
 
-<img src="./screenshots/mobile-screenshot.png" alt="Mobile Screenshot" width="400" />
